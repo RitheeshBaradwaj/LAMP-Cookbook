@@ -16,7 +16,7 @@ More information about knife.rb configuration options can be found in [the docum
 
 Cookbooks
 ---------
-A cookbook is the fundamental unit of configuration and policy distribution. A sample cookbook can be found in `cookbooks/starter`. After making changes to any cookbook, you must upload it to the Chef server using knife:
+A cookbook is the fundamental unit of configuration and policy distribution. A sample cookbook can be found in `cookbooks/sample_app`. After making changes to any cookbook, you must upload it to the Chef server using knife:
 
     $ knife upload cookbooks/sample_app
 
