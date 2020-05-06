@@ -1,0 +1,9 @@
+<VirtualHost *:80>
+        <Directory <%= node['sample_app']['web']['document_root'] %>>
+                Options +ExecCGI
+                AddHandler cgi-script .py
+        </Directory>
+        ServerName <%= node['hostname'] %>
+        ServerAdmin webmaster@localhost
+        DocumentRoot <%= node['sample_app']['web']['document_root'] %>
+</VirtualHost>
