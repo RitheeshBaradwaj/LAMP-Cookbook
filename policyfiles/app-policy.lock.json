@@ -1,0 +1,58 @@
+{
+  "revision_id": "a0b2515879d688c7fd06a04261820a33845c5b3742e75d2e2bde6591f088a871",
+  "name": "sample_app",
+  "run_list": [
+    "recipe[sample_app::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "sample_app": {
+      "version": "1.0.0",
+      "identifier": "b913b150d76791b35200731f946a2224eea3fde0",
+      "dotted_decimal_identifier": "52094522977904529.50474182716134506.37542017891808",
+      "source": "../cookbooks/sample_app",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": null,
+        "revision": "fb8bc843160ebe1c13da0d2b76d4857b2509e8ba",
+        "working_tree_clean": false,
+        "published": false,
+        "synchronized_remote_branches": [
+
+        ]
+      },
+      "source_options": {
+        "path": "../cookbooks/sample_app"
+      }
+    }
+  },
+  "default_attributes": {
+    "sample_app": {
+      "web": {
+        "new_directory": "/var/www/html/myapp",
+        "conf_path": "etc/apache2/sites-enabled/000-default.conf",
+        "index_path": "/var/www/html/myapp/index.py",
+        "document_root": "/var/www/html"
+      }
+    }
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "sample_app",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "sample_app (1.0.0)": [
+
+      ]
+    }
+  }
+}
