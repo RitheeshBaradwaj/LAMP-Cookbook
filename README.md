@@ -1,6 +1,7 @@
 LAMP
-===============
+====
 I have built a LAMP cookbook using chef. Linux, Apache, MySQL, Python
+
 The chef-repo
 ===============
 All installations require a central workspace known as the chef-repo. This is a place where primitive objects--cookbooks, roles, environments, data bags, and chef-repo configuration files--are stored and managed.
