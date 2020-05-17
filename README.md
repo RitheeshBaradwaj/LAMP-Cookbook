@@ -1,6 +1,6 @@
 LAMP
 ====
-I have built a LAMP cookbook using chef. 
+I have built a LAMP cookbook using chef.<br>
 Linux, Apache, MySQL, Python
 
 The chef-repo
